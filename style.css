@@ -1,0 +1,48 @@
+body {
+    background-color: whtie;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  h1, h2, h3{
+    color: slateblue;
+  }
+  h1 {
+    font-variant: small-caps;
+  }
+
+p {
+    width: 800px;
+}
+
+img {
+    width: 300px;
+    height:auto;
+}
+
+.topnav {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #999;
+  }
+  
+  .topnav:hover {background-color: lightsteelblue}
+  
+  .topnav:active {
+    background-color: lightsteelblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .banner {
+    background-color: aliceblue;
+    max-width: 500px;
+    border-radius: 2px 15px 15px 2px
+  }
